@@ -1,0 +1,103 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+html,
+body {
+    margin: 0px;
+    height: 100%;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+
+    font-size: 14px;
+    line-height: 26px;
+}
+h3,
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul,
+ul li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+* {
+    box-sizing: border-box !important;
+}
+
+.ant-layout {
+    min-height: 100vh !important;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.indent {
+    text-indent: 2em;
+}
+
+/* 标题层级 */
+.txt-b {
+    font-size: 14px;
+    font-weight: 700;
+}
+.title1-b {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.title2-b {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+/* element-ui按钮 */
+.start {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.line {
+    width: 920px;
+    height:0px;
+    border: 0.25px solid #ddd;
+    margin-bottom: 30px;
+}
+.hand {
+    cursor: pointer;
+}
+/deep/.start .el-button {
+    padding: 14px 55px;
+    background-color: #1476b6;
+    margin-bottom: 30px;
+}
+/deep/.start .el-button:hover {
+    background-color: #1a92dd;
+    border: 1px solid #1a92dd;
+}
+.el-button--primary {
+    background-color: #1476b6;
+    border-color: #1476b6;
+}
